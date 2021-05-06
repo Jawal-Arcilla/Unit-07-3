@@ -6,9 +6,9 @@ function age () {
 
   userInput = document.getElementById('input').value
   userInput = parseInt(userInput)
-
-  if (userInput >= 17) { 
-    document.getElementById('answer').innerHTML =  'You can see rated R movies alone.'
+  }
+  if (userInput >= 17) {
+    document.getElementById('answer').innerHTML = 'You can see a rated R movies alone.'
   } else if (userInput >= 13) {
     document.getElementById('answer').innerHTML = 'You can see PG movies alone.'
   } else {
