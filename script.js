@@ -14,4 +14,3 @@ function age () {
   } else {
     document.getElementById('answer').innerHTML = 'You can see a G rated movie.'
   }
-}
